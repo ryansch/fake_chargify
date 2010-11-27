@@ -1,6 +1,6 @@
 source :rubygems
 
-gem "fakeweb", "~> 1.3.0"
+gem "fakeweb", :git => "git://github.com/ryansch/fakeweb.git", :branch => "request_block"
 
 group :development do
 	gem "shoulda", ">= 0"
