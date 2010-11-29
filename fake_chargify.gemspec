@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ryan Schlesinger"]
-  s.date = %q{2010-11-26}
+  s.date = %q{2010-11-29}
   s.description = %q{Uses FakeWeb to grab requests to Chargify and return customized responses.}
   s.email = %q{ryan@instanceinc.com}
   s.extra_rdoc_files = [
@@ -22,7 +22,6 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README",
     "Rakefile",
-    "VERSION",
     "fake_chargify.gemspec",
     "init.rb",
     "install.rb",

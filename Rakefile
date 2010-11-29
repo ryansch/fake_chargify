@@ -10,6 +10,7 @@ end
 require 'rake'
 
 require 'jeweler'
+require 'lib/fake_chargify/version.rb'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "fake_chargify"
@@ -18,6 +19,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Uses FakeWeb to grab requests to Chargify and return customized responses.}
   gem.email = "ryan@instanceinc.com"
   gem.authors = ["Ryan Schlesinger"]
+	gem.version = FakeChargify::Version::STRING
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
